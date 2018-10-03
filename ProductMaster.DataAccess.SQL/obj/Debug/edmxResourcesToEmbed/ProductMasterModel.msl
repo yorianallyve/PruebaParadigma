@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProductMasterModelStoreContainer" CdmEntityContainer="ProductMasterEntities">
+    <EntitySetMapping Name="Country">
+      <EntityTypeMapping TypeName="ProductMasterModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="NameCountry" ColumnName="NameCountry" />
+          <ScalarProperty Name="IdCountry" ColumnName="IdCountry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="ProductMasterModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="StateProduct" ColumnName="StateProduct" />
+          <ScalarProperty Name="SoldUnits" ColumnName="SoldUnits" />
+          <ScalarProperty Name="UnitsAvailable" ColumnName="UnitsAvailable" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="IdCountry" ColumnName="IdCountry" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+          <ScalarProperty Name="NameProduct" ColumnName="NameProduct" />
+          <ScalarProperty Name="IdProduct" ColumnName="IdProduct" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

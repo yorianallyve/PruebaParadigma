@@ -1,0 +1,17 @@
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\ProductMaster.BussinessEntities.dll.config
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\ProductMaster.BussinessEntities.dll
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\ProductMaster.BussinessEntities.pdb
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\EntityFramework.dll
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\EntityFramework.SqlServer.dll
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\EntityFramework.xml
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\EntityFramework.SqlServer.xml
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\obj\Debug\ProductMaster.BussinessEntities.csproj.CoreCompileInputs.cache
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\obj\Debug\ProductMaster.BussinessEntities.csproj.CopyComplete
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\obj\Debug\ProductMaster.BussinessEntities.dll
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\obj\Debug\ProductMaster.BussinessEntities.pdb
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\Newtonsoft.Json.dll
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\System.Net.Http.Formatting.dll
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\System.Web.Http.dll
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\Newtonsoft.Json.xml
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\System.Net.Http.Formatting.xml
+E:\Proyectos\PruebaParadigma\ProductMaster\ProductMaster.BussinessEntities\bin\Debug\System.Web.Http.xml
