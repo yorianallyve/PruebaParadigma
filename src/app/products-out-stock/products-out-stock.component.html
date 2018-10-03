@@ -1,0 +1,66 @@
+<h1>Productos sin stock</h1>
+<div class="form-row">
+    <div class="form-group col-md-3">
+        <label for="inputId">Producto</label>
+        <input type="text" class="form-control" id="inputId" [(ngModel)]="temprod">
+    </div>
+    <div class="form-group col-md-6">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" (click)="onClickSearchIdProduct()" class="btn btn-Light">Buscar Producto</button>
+            <button type="button" (click)="onClickSearchIdCountry()" class="btn btn-Light">Buscar Pais</button>
+            <button type="button" (click)="OnClickCleanProductAll()" class="btn btn-dark">Limpiar</button>
+
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID PRODUCTO</th>
+                <th scope="col">NOMBRE</th>
+                <th scope="col">FECHA LANZAMIENTO</th>
+                <th scope="col">EMAIL</th>
+                <th scope="col">PAIS</th>
+                <th scope="col">COSTO</th>
+                <th scope="col">UNIDADES DISPONIBLES</th>
+                <th scope="col">UNIDADES VENDIDAS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let products of pagedItems">
+                <td>{{products.IdProduct}}</td>
+                <td>{{products.NameProduct}}</td>
+                <td>{{products.ReleaseDate}}</td>
+                <td>{{products.Email}}</td>
+                <td>{{products.NameCountry}}</td>
+                <td>{{products.Cost}}</td>
+                <td>{{products.UnitsAvailable}}</td>
+                <td>{{products.SoldUnits}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+Paginas
+<nav aria-label="Page navigation example">
+    <ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+        <li [ngClass]="{disabled:pager.currentPage === 1}" class="page-item">
+            <a (click)="setPage(1)" class="page-link">First</a>
+        </li>
+        <li [ngClass]="{disabled:pager.currentPage === 1}" class="page-item">
+            <a (click)="setPage(pager.currentPage - 1)" class="page-link">Previous</a>
+        </li>
+        <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}" class="page-item">
+            <a (click)="setPage(page)" class="page-link">{{page}}</a>
+        </li>
+        <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}" class="page-item">
+            <a (click)="setPage(pager.currentPage + 1)" class="page-link">Next</a>
+        </li>
+        <li [ngClass]="{disabled:pager.currentPage === pager.totalPages}" class="page-item">
+            <a (click)="setPage(pager.totalPages)" class="page-link">Last</a>
+        </li>
+    </ul>
+</nav>
